@@ -1,4 +1,4 @@
 # manager-demo
 ### a simple demo
-- spring boot..
-- 
+- with spring boot
+- etc..
