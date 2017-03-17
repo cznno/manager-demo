@@ -114,7 +114,9 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<version>1.5.2.RELEASE</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -122,6 +124,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration><fork>true</fork></configuration>
 			</plugin>
 		</plugins>
 	</build>

@@ -2,9 +2,10 @@ package pers.cznno;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by czxian on 17-3-13.
+ * Created by cznno on 17-3-13.
  */
 
 @SpringBootApplication
