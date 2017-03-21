@@ -1,4 +1,4 @@
-package pers.cznno;
+package pers.cznno.authentication;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -24,6 +24,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                     .loginPage("/login")
                     .successForwardUrl("/index")
                     .permitAll()
+                    .and()
+                .rememberMe()
+                    .tokenValiditySeconds(1209600)
+                    .key("rememberMe")
                     .and()
                 .logout()
                     .permitAll();
